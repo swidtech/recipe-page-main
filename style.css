@@ -1,0 +1,53 @@
+:root {
+    --whitecolor : white;
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light: Grey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+    --White: hsl(0, 0%, 100%);
+    --Rose:  hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--Eggshell);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.continer {
+    position: relative;
+    max-width: 50%;
+    max-height: fit-content;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: var(--whitecolor)
+}
+
+.imge-div {
+    position: absolute;
+    border-radius: 50px;
+}
+
+.first-div {
+    border: 25px;
+}
+
+h2 {
+    color: var(--WengeBrown);
+}
+
+table {
+    border: 1px solid black;
+}
